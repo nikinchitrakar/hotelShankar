@@ -18,6 +18,11 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="<?=base_url();?>assets/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="<?=base_url();?>assets/js/defaultjquery.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>assets/js/form.js"></script>
+    <script src="http://momentjs.com/downloads/moment-with-locales.js"></script>
+    <script src="http://momentjs.com/downloads/moment-timezone-with-data.js"></script>
+
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({

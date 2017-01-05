@@ -5,8 +5,8 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Hotel
-                        <strong>blog</strong>
+                    <h2 class="intro-text text-center">
+                        <strong>Hotel Blog</strong>
                     </h2>
                     <hr>
                 </div>

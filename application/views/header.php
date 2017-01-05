@@ -31,7 +31,6 @@
     <![endif]-->
 
 </head>
-
 <body>
 
 <div class="brand">Hotel Shankhar</div>
@@ -58,17 +57,20 @@
                         <a href="<?=site_url('hotel');?>">Home</a>
                     </li>
                     <li>
-                        <a href="<?=site_url('hotel/loadPage/aboutus');?>">About Us</a>
+                        <a href="<?=site_url('hotel/loadPage/AboutUs');?>">About Us</a>
                     </li>
                     <li>
-                        <a href="<?=site_url('hotel/loadPage/blog');?>">Blog</a>
+                        <a href="<?=site_url('hotel/loadPage/Blog');?>">Blog</a>
                     </li>
                     <li>
-                        <a href="<?=site_url('hotel/loadPage/contact');?>">Contact</a>
+                        <a href="<?=site_url('hotel/loadPage/Contact');?>">Contact</a>
                     </li>
                     <li>
-                        <a href="<?=site_url('hotel/loadPage/rooms');?>">Rooms</a>
-                    </li>    
+                        <a href="<?=site_url('hotel/loadPage/Rooms');?>">Rooms</a>
+                    </li> 
+                    <li>
+                        <a href="<?=site_url('hotel/loadPage/Gallery');?>">Gallery</a>
+                    </li>   
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

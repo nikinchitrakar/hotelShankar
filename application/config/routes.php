@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "hotel";
 $route['404_override'] = '';
+$route['admin'] = 'admin';
 
 
 /* End of file routes.php */

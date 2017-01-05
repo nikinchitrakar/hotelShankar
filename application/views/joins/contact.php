@@ -12,7 +12,27 @@
                 </div>
                 <div class="col-md-8">
                     <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                    <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.youtube.com/embed/M2kSJbLbIgQ"></iframe>
+                    
+                  <!--   <div id="map"></div>
+                    <script>
+                    function initMap() {
+                        var uluru = {lat: -25.363, lng: 131.044};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 4,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+                </script>
+
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT0glHlJoHVKSrUtFpS1wASEloBUa7180&callback=initMap">
+            </script> -->
+
+                <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK&zoom=17&key=AIzaSyBT0glHlJoHVKSrUtFpS1wASEloBUa7180"></iframe>
                 </div>
                 <div class="col-md-4">
                     <p>Phone:
